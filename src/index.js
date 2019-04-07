@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
-import StringRef from './stringRef/StringRef';
+//import StringRef from './stringRef/StringRef';
+import CallbackRef from './callbackRef/CallbackRef';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<StringRef />, document.getElementById('root'));
+ReactDOM.render(<CallbackRef />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
