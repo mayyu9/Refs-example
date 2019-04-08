@@ -4,7 +4,8 @@ import './index.css';
 //import App from './App';
 //import StringRef from './stringRef/StringRef';
 //import CallbackRef from './callbackRef/CallbackRef';
-import CustomTextInput from './forwardRef/ForwardRef';
+//import CustomTextInput from './forwardRef/ForwardRef';
+import CustomTextInput from './ForwardRefHOC/CustomTextInput';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<CustomTextInput />, document.getElementById('root'));

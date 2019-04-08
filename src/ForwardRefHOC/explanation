@@ -1,0 +1,17 @@
+we create a HOC component that HOC returns a wrapped component as a React.forwardRef.
+
+we create a TextInput.js-> here we create our html and add the ref object returned from the HOC component.
+
+CustomTextInput -> here we create a ref object using createRef api. this ref object we pass it to the Input function component.
+  Input component calls the HOC function.
+
+  here we passed a ref object created in customTextInput to the TextInput's input element using the HOC and forward ref.
+
+
+if we want to pass any props to hoc, we can pass it from customTextInput.
+  this props gets collected in hoc as props. same props can be forwarded to the children as {...props}
+
+reference:
+https://www.fullstackreact.com/articles/using-refs-in-react/
+https://blog.logrocket.com/how-to-use-react-createref-ea014ad09dba
+ 
